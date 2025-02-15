@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b956f67dc0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div><!--website-->
+
+        <!--overall div-->
+        <div class="od">
+
+            <!--nav div for navbar-->
+            <nav class="navbar">
+                <h1 class="logo">Portfolio</h1>
+
+                <label class="" for="link">
+                    <i class="fa-solid fa-bars ic"></i>
+                </label>
+                <input name="inp" type="checkbox" class="cb" id="link" />
+                <!--ul for nav details-->
+                <ul class="navdetails">
+                    <li><a href="#Home" class="">Home</a></li>
+                    <li><a href="#About" class="">About</a></li>
+                    <li><a href="#Project" class="">Project</a></li>
+                    <li><a href="#Contact" class="">Contact</a></li>
+                </ul>
+
+
+            </nav>
+
+            <div class="bars-animation">
+                <div class="bar" style="--s:6;"></div>
+                <div class="bar" style="--s:5;"></div>
+                <div class="bar" style="--s:4;"></div>
+                <div class="bar" style="--s:3;"></div>
+                <div class="bar" style="--s:2;"></div>
+                <div class="bar" style="--s:1;"></div>
+            </div>
+
+            <!--div for page 1-->
+            <div class="pg1 min-vh-100" id="Home">
+
+                <!--div(row) for page1 details-->
+                <div class="row --bs-gutter-x-0 pg1row w-100">
+
+                    <!--divfor left card in page1-->
+                    <div class="col-12 col-sm-7 col-md-7 lcdiv">
+                        <!--div for left card content-->
+                        <div class="leftcardcontent">
+                            <h1 class="name">SHAFEEQ AHAMED S</h1>
+                            <h4 class="position">I'm a <span class="work">Full Stack Developer</span></h2>
+                                <p class="para">Hi, I'm a Full stack developer, i completed my UG in Govt Arts & Science
+                                    College Thiruivottiyur. I learned coding in <span class="code">Code99</span>
+                                    institute , and i need to develop my skills more.
+                                </p>
+                                <!--div for buttons & icons-->
+                                <div class="pg1buttonsdiv">
+                                    <button class="b1">Download Resume</button>
+                                    <div class="icons">
+                                        <i class="fa-brands fa-github"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                </div>
+                        </div><!--left card content-->
+                    </div><!--lc-->
+                    <!--divfor right card in page1-->
+                    <div class="rightcardimage col-12 col-sm-5 col-md-5 p-0">
+                        <!--div for image-->
+                        <div class="imagediv">
+                            <div class="imagediv2">
+                                <div class="imagediv3">
+                                    <img src="./profile.png" class="image1" alt="Profile picture" />
+                                </div><!--imgdiv3-->
+                            </div><!--imgdiv2-->
+                        </div><!--imgdiv1-->
+                    </div><!--rc-->
+
+                </div>
+
+            </div><!--pg1----------------------------------------------------------------------------------->
+
+            <!--div for page 2------------------------------------------------------------------------------>
+            <div id="About" class="pg2 container-fluid min-vh-100">
+                <!--div for pg-2 row-->
+                <div class="row vh-100">
+
+                    <!--col 1 for leftcard-->
+                    <div class="col-8 aboutleft">
+                        <!--div for pg2 content-->
+                        <div class="aboutcontent">
+                            <h1 class="p2name">About Me!</h1>
+                            <p class="p2para">I am a (B.com) Student and i studied in Govt Atrs & Science College
+                                Thiruvottiyur. I complated my UG at 2024-April. Now i'm Learing coding in Code99
+                                Institute.</p>
+                            <div class="p2btndiv">
+                                <button class="b1p2">Learn more..!</button>
+                            </div><!--p2btndiv-->
+                        </div><!--aboutcontent-->
+                        <h2 class="skill m-0">SKILLS</h2>
+                        <!--div for lowercontent in leftcard of page2-->
+                    <div class="row lowercontentp2">
+
+                        <div class="col box1p2">
+                            <h4>HTML</h4>
+                        </div>
+                        <div class="col box2p2">
+                            <h4>CSS</h4>
+                        </div>
+                        <div class="col box3p2">
+                            <h4>BOOTSTRAP</h4>
+                        </div>
+                    </div>
+                    </div><!--leftcard container-->
+                    <!--col 2 for rightcard-->
+                    <div class="col-4 pg2imagediv">
+                        <div class="pg2imgbgdiv">
+                            <img src="./pg2profile1-removebg-preview.png" alt="Profile picture" class="imagepg2" />
+                        </div><!--pg2imgbgdiv-->
+                    </div><!--pg2imagediv-->
+                </div><!--row div-->
+            </div><!--pg2----------------------------------------------------------------------------------->
+            <!--pg3 div----------------------------------------------------------------------------------->
+            <div id="Project" class="pg3 min-vh-100 container-fluid bg-dark">
+
+            </div>
+            <!--pg3----------------------------------------------------------------------------------------------->
+
+
+
+            <!--pg4 Contact----------------------------------------------------------------------------------->
+            <div id="Contact" class="pg4 min-vh-100 container-fluid bg-info">
+
+            </div>
+
+
+        </div><!--od-->
+
+    </div><!--website-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
